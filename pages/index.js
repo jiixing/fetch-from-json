@@ -11,11 +11,8 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
-        <Link href="/posts/first-post">first post</Link>
-          <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <Link href="/posts/first-post">first post</Link><br/>
+          <a href="/posts/wpindex">wpindex</a>
       </section>
     </Layout>
   )
